@@ -1,7 +1,7 @@
 import React from 'react';
-import {Text, View, StyleScreen} from 'react-native';
+import {Text, View, StyleSheet} from 'react-native';
 
-const indexScreen = () => {
+const IndexScreen = () => {
     return (
         <View>
         <Text>Index Screen</Text>
@@ -11,4 +11,4 @@ const indexScreen = () => {
 
 const styles = StyleSheet.create({});
 
-export default indexScreen;
+export default IndexScreen;
