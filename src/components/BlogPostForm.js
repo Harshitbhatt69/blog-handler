@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { View, Text, StyleSheet, Button, TextInput } from "react-native";
 
-const BlogPostForm = ({ onSubmit }) => {
-  const [title, setTitle] = useState("");
-  const [content, setContent] = useState("");
+//this will crash while navigating from createscreen cuz we are not providing any initialValues from there, its from editscreen
+const BlogPostForm = ({ onSubmit, initialValues }) => {
+  const [title, setTitle] = useState(initialValues.title);
+  const [content, setContent] = useState(initialValues.content);
 
   return (
     <View>
@@ -22,6 +23,14 @@ const BlogPostForm = ({ onSubmit }) => {
       <Button title="Save Blog Post" onPress={() => onSubmit(title, content)} />
     </View>
   );
+};
+
+//help to save crashing from navigating creatscreen to blogscreen
+BlogPostForm.defaultProps = {
+  initialValues: {
+    title: "",
+    content: "",
+  },
 };
 
 const styles = StyleSheet.create({
