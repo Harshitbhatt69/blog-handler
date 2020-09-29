@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
   icon: {
     fontSize: 24,
     color: "black",
+    marginRight: 14,
   },
   plus: {
     fontSize: 30,
