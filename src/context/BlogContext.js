@@ -1,6 +1,5 @@
 import createDataContext from "./createDataContext";
-import jsonSever from "../api/jsonServer";
-import jsonserver from "../api/jsonServer";
+import jsonServer from "../api/jsonServer";
 
 const blogReducer = (state, action) => {
   //state is array
@@ -55,9 +54,9 @@ const editBlogPost = (dispatch) => {
     }
   };
 };
-const getBlogPost = (dispatch) => {
+const getBlogPosts = (dispatch) => {
   return async () => {
-    const response = await jsonserver.get("/blogposts");
+    const response = await jsonServer.get("/blogposts");
     //stored in responce.data as an array of objects [{}, {}, {},...]
     dispatch({ type: "get_blogposts", payload: response.data });
   };
@@ -65,6 +64,6 @@ const getBlogPost = (dispatch) => {
 
 export const { Context, Provider } = createDataContext(
   blogReducer,
-  { addBlogPost, deleteBlogPost, editBlogPost, getBlogPost },
+  { addBlogPost, deleteBlogPost, editBlogPost, getBlogPosts },
   []
 );
