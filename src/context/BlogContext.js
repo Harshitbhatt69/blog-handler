@@ -4,6 +4,11 @@ const blogReducer = (state, action) => {
   //state is array
   //action type is add, del etc...
   switch (action.type) {
+    case "edit_blogpost":
+      return state.map((blogpost) => {
+        return blogpost.id === action.payload.id ? action.payload : blogpost;
+      });
+
     case "delete_blogpost":
       return state.filter((blogpost) => blogpost.id !== action.payload);
 
