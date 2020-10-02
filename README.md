@@ -1,6 +1,6 @@
 # Blog-Handler
 
-A full-stack app made for managing the blog-posts to ensure a quick, flexible and handy delivery of your blogs.
+A full-stack Solution for managing the blog-posts to ensure a quick, flexible and handy delivery and management of your blogs.
 
 ## Table of Contents
 * [App Description](#app-description)
@@ -9,7 +9,7 @@ A full-stack app made for managing the blog-posts to ensure a quick, flexible an
 * [Setup](#setup)
 * [Features](#features)
 
-## app-description
+## App-description
 Hello folks,
 So here I am building a tool that facilitates the management of your Blogposts making it handy without giving your fingers too move much.
 This app is developed using React Native with Expo as it facilitates to migrate between android and iOS easier than anything else right now.
@@ -20,25 +20,29 @@ You have the options for add, delete, read and edit post. The post will be store
 
 ## Screenshots
 
-#### First impression
+#### 1. First impression
 Here is the first look of the app.
 ![Example screenshot](https://github.com/Harshitbhatt69/blog-handler/blob/master/ScreenShort/Screenshot_20201002-123148.png)
-#### Blogs created
+
+
+#### 2. Blogs created
 This section shows the lists of blogs created using the app. 
 ![Example screenshot](https://github.com/Harshitbhatt69/blog-handler/blob/master/ScreenShort/Screenshot_20201002-123740.png)
-#### Deletion
+
+
+#### 3. Deletion
 This section shows the deletion of the blog.
 ![Example screenshot](https://github.com/Harshitbhatt69/blog-handler/blob/master/ScreenShort/Screenshot_20201002-123715.png)
 
 
-## technologies
+## Technologies
 * Javascript    - [Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * React Native  - [Documentation](https://reactnative.dev/docs/getting-started)
 * Expo          - [Documentation](https://docs.expo.io/)
 * Json          - [Documentation](https://www.json.org/json-en.html)
 * Ngrok         - [Documentation](https://ngrok.com/docs)
 
-## setup
+## Setup
 
 #### Clone Repository
 
@@ -46,7 +50,7 @@ This section shows the deletion of the blog.
 $ git clone https://github.com/Harshitbhatt69/blog-handler.git
 ```
 
-## features
+## Features
 * User can add a new blog/blogs.
 * User can read the published blog/blogs.
 * User can manage the blog by editing it.
