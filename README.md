@@ -31,10 +31,10 @@
 
  This application is helpfull for those who love to blog and keep the records of the posts, here you will get the option to add, delete and edit your blog posts records online in this application.
 
+<img src = "./ScreenShort/Screenshot_20201002-123740.png" height="400" width = "200" >
 <img src = "./ScreenShort/Screenshot_20201002-123240.png" height="400" width = "200" >
 <img src = "./ScreenShort/Screenshot_20201002-123715.png" height="400" width = "200" >
 <img src = "./ScreenShort/Screenshot_20201002-123729.png" height="400" width = "200" >
-<img src = "./ScreenShort/Screenshot_20201002-123740.png" height="400" width = "200" >
 
 ### Built With
 
