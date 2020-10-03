@@ -29,16 +29,7 @@
 ## About The Project
 
 
- This application is helpfull for those who love to blog and keep the records of the posts, here you will get the option to add, delete and edit your blog posts records online in this application. This application is connected to ngrok server, so whenever you want it to run follow the steps:
- 
- 1. Open terminal navigate to blog/jsonserver directory and connect to database by ```yarn run db ```
-
-2. Then open new terminal navigate to jsonserver folder and use command to start ngrok server by ```yarn run tunnel```
-
-3. Then copy the newly generated http link from ngrok termnial.
-
-4. Then navigate to blog/src/api/jsonServer.js file and replace the old link with new link inside baseURL tag. Now you are good to go.
-
+ This application is helpfull for those who love to blog and keep the records of the posts, here you will get the option to add, delete and edit your blog posts records online in this application.
 
 <img src = "./ScreenShort/Screenshot_20201002-123240.png" height="400" width = "200" >
 <img src = "./ScreenShort/Screenshot_20201002-123715.png" height="400" width = "200" >
@@ -114,6 +105,16 @@ yarn add json-server ngrok
 ```sh
 expo start
 ```
+
+ This application is connected to ngrok server, so whenever you want it to run follow the steps:
+ 
+ 1. Open terminal navigate to blog/jsonserver directory and connect to database by ```yarn run db ```
+
+2. Then open new terminal navigate to jsonserver folder and use command to start ngrok server by ```yarn run tunnel```
+
+3. Then copy the newly generated http link from ngrok termnial.
+
+4. Then navigate to blog/src/api/jsonServer.js file and replace the old link with new link inside baseURL tag. Now you are good to go.
 
 <!-- USAGE EXAMPLES -->
 
