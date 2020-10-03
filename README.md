@@ -30,11 +30,13 @@
 
 
  This application is helpfull for those who love to blog and keep the records of the posts, here you will get the option to add, delete and edit your blog posts records online in this application.
+<div class="row">
 
 <img src = "./ScreenShort/Screenshot_20201002-123740.png" height="300" width = "150" >
 <img src = "./ScreenShort/Screenshot_20201002-123240.png" height="300" width = "150" >
 <img src = "./ScreenShort/Screenshot_20201002-123715.png" height="300" width = "150" >
 <img src = "./ScreenShort/Screenshot_20201002-123729.png" height="300" width = "150" >
+</div>
 
 ### Built With
 
@@ -48,7 +50,7 @@
 
 <img alt="ngrok" src="https://img.shields.io/badge/uses-ngrock-red" />
 
-<img alt="Json Server" src="https://img.shields.io/badge/used-Json-blue" />
+<img alt="Json Server" src="https://img.shields.io/badge/uses-Json-blue" />
 
 
 </p>
