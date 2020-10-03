@@ -37,9 +37,7 @@
 
 3. Then copy the newly generated http link from ngrok termnial.
 
-4. Then navigate to blog/src/api/jsonServer.js file and the old link with new link inside baseURL tag.
-
-5. Now ypu are good to use.
+4. Then navigate to blog/src/api/jsonServer.js file and the old link with new link inside baseURL tag. Now ypu are good to go.
 
 
 <img src = "./ScreenShort/Screenshot_20201002-123240.png" height="400" width = "200" >
