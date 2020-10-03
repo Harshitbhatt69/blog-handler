@@ -1,0 +1,19 @@
+{
+  "blogposts": [
+    {
+      "title": "API POST",
+      "content": "content for my post, for ngrok server",
+      "id": 1
+    },
+    {
+      "title": "Third blog post",
+      "content": "2nd one is deleted and this is 3nd post of mine",
+      "id": 3
+    },
+    {
+      "title": "3rd post",
+      "content": "blah blah blah blah × cring",
+      "id": 4
+    }
+  ]
+}
