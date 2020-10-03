@@ -31,10 +31,10 @@
 
  This application is helpfull for those who love to blog and keep the records of the posts, here you will get the option to add, delete and edit your blog posts records online in this application.
 
-<img src = "./ScreenShort/Screenshot_20201002-123740.png" height="400" width = "200" >
-<img src = "./ScreenShort/Screenshot_20201002-123240.png" height="400" width = "200" >
-<img src = "./ScreenShort/Screenshot_20201002-123715.png" height="400" width = "200" >
-<img src = "./ScreenShort/Screenshot_20201002-123729.png" height="400" width = "200" >
+<img src = "./ScreenShort/Screenshot_20201002-123740.png" height="300" width = "150" >
+<img src = "./ScreenShort/Screenshot_20201002-123240.png" height="300" width = "150" >
+<img src = "./ScreenShort/Screenshot_20201002-123715.png" height="300" width = "150" >
+<img src = "./ScreenShort/Screenshot_20201002-123729.png" height="300" width = "150" >
 
 ### Built With
 
@@ -46,9 +46,9 @@
 
 <img alt="React" src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=white" />
 
-<img alt="ngrok" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.f8BpPwUU6wyS2YHk2TsN3AHaEJ%26pid%3DApi&f=1" />
+<img alt="ngrok" src="https://img.shields.io/badge/uses-ngrock-red" />
 
-<img alt="Json Server" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.1DwYCqKbuisEZT6wEa99ugHaDi%26pid%3DApi&f=1" />
+<img alt="Json Server" src="https://img.shields.io/badge/used-Json-blue" />
 
 
 </p>
