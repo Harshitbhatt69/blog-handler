@@ -90,25 +90,25 @@ git clone https://github.com/Harshitbhatt69/blog-handler.git
 2. Install Expo Cli if you haven't already
 
 ```sh
-npm install -g expo-cli
+yarn add -g expo-cli
 ```
 
 3. Install packages
 
 ```sh
-npm install
+yarn add
 ```
 
 4. Install packages
 
 ```sh
-npm axios
+yarn add axios
 ```
 
 5. Install packages
 
 ```sh
-npm json-server ngrok
+yarn add json-server ngrok
 ```
 
 6. Build expo project and Run the bundler
